@@ -1,0 +1,13 @@
+
+:root{--purple:#7B2FFF;--accent:#B27CFF;--black:#0B0B0E;--off:#F7F7FB}
+html,body{margin:0;padding:0;background:var(--black);color:var(--off);font-family:ui-sans-serif,system-ui}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #191919}
+.badge{padding:6px 10px;border-radius:999px;background:linear-gradient(90deg,var(--purple),var(--accent));font-size:12px}
+.pulse{display:flex;gap:16px;margin:18px 0;padding:20px;background:#121218;border:1px solid #1d1d22;border-radius:16px}
+.pulseViz{width:80px;height:80px;border-radius:999px;background: radial-gradient(closest-side,#7B2FFF, transparent);
+animation:beat 2.4s infinite ease-in-out}@keyframes beat{0%{transform:scale(.96)}50%{transform:scale(1.03)}100%{transform:scale(.96)}}
+.tile{background:#111214;border:1px solid #1f1f23;padding:12px 14px;border-radius:12px}
+.nav a{padding:8px 12px;border-radius:10px;background:#121218;border:1px solid #1f1f23;margin-right:8px}
+.create{padding:10px 14px;border-radius:12px;background:linear-gradient(90deg,var(--purple),var(--accent));color:#fff;border:0;font-weight:600}
+.footer{margin-top:40px;color:#8e8e95;font-size:12px}
